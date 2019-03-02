@@ -1,0 +1,23 @@
+```
+bash（ターミナル、コマンドライン）
+以下のファイル構造を作成する。
+cd: ディレクトリ（フォルダのこと）の移動
+ls: 現在いるディレクトリの中身を表示する。
+pwd: 現在いるパスを表示する。（パスはディレクトリの位置のこと）
+mkdir: ディレクトリを作成する
+touch #{file_name}: #{file_name}という名前でファイルを作成する。
+vim #{file_name}: 同上 or 既にファイルが存在する場合は、ファイルの中身を閲覧する
+cat #{file_name}: ファイルの中身を閲覧する
+rm #{file_name}: ファイルの削除
+*: wild card（何でもマッチする）
+ex) rm *.txt // カレントディレクトリ内の拡張子が.txtのファイルを削除する
+man #{command_name}: コマンドに関する説明が読める
+
+practice/
+	folder_a/
+		sample_a.txt
+		sample_b.txt
+	folder_b/
+		sample_c.txt
+
+```
